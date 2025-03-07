@@ -24,7 +24,7 @@ class Onboarding2 extends StatelessWidget {
                 ),
                 SizedBox(height: screenHeight * 0.05), // Jarak antara gambar dan teks
                 Text(
-                  "Jelajahi Risiko Bencana Alam di Sulawesi Tengah",
+                  "Jelajahi Risiko Bencana Alam di Indonesia",
                   style: TextStyle(
                     fontSize: screenWidth * 0.05, // Ukuran font berdasarkan lebar layar
                     fontWeight: FontWeight.w800,
@@ -37,7 +37,7 @@ class Onboarding2 extends StatelessWidget {
                 Padding(
                   padding: EdgeInsets.symmetric(horizontal: screenWidth * 0.05), // Padding teks berdasarkan lebar layar
                   child: Text(
-                    "Dengan SafeZone Sulteng, Anda bisa dengan mudah melihat dan memahami lokasi rawan bencana di Sulawesi Tengah.",
+                    "Dengan SafeZone INDO, Anda bisa dengan mudah melihat dan memahami lokasi rawan bencana di Indonesia.",
                     style: TextStyle(
                       fontSize: screenWidth * 0.04, // Ukuran font deskripsi berdasarkan lebar layar
                       color: Color(0xFF5D5D5D),

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:safezone_sulteng/view/login/login.dart';
+import 'package:safezone_sulteng/view/homepage/home.dart';
+// import 'package:safezone_sulteng/view/login/login.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 import 'onboarding1.dart'; // Import slide 1
 import 'onboarding2.dart'; // Import slide 2
@@ -29,7 +30,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
   void _nextPage() {
     if (_currentPage.value == _totalPages - 1) {
       Navigator.of(context).pushReplacement(
-        MaterialPageRoute(builder: (context) => LoginPage()),
+        MaterialPageRoute(builder: (context) => HomePage()),
       );
     } else {
       _controller.nextPage(

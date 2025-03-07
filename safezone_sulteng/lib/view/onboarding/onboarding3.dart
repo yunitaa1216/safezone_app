@@ -36,7 +36,7 @@ class Onboarding3 extends StatelessWidget {
           Padding(
             padding: EdgeInsets.symmetric(horizontal: screenWidth * 0.05), // Padding horizontal dinamis
             child: Text(
-              "Dengan adanya penandaan lokasi bencana, SafeZone Sulteng membantu Anda tetap siap dan terlindungi.",
+              "Dengan adanya penandaan lokasi bencana, SafeZone INDO membantu Anda tetap siap dan terlindungi.",
               style: TextStyle(
                 fontSize: screenWidth * 0.04,  // Ukuran font dinamis, 4% dari lebar layar
                 color: Color(0xFF5D5D5D),

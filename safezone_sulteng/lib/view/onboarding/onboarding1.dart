@@ -22,7 +22,7 @@ class Onboarding1 extends StatelessWidget {
             ),
             SizedBox(height: screenHeight * 0.05), // Jarak setelah gambar berdasarkan 5% dari tinggi layar
             Text(
-              "Selamat Datang Di SafeZone SULTENG",
+              "Selamat Datang Di SafeZone INDO",
               style: TextStyle(
                 fontSize: screenWidth * 0.045,  // Ukuran font 4.5% dari lebar layar
                 fontWeight: FontWeight.w800,  // Menggunakan ExtraBold
@@ -34,7 +34,7 @@ class Onboarding1 extends StatelessWidget {
             Padding(
               padding: EdgeInsets.symmetric(horizontal: screenWidth * 0.1), // Padding horizontal 10% dari lebar layar
               child: Text(
-                "Di SafeZone Sulteng, kami menyediakan peta interaktif dan informasi bencana yang membantu Anda tetap aman. Masuk atau daftar untuk memulai dan menjelajahi fitur-fitur kami.",
+                "Di SafeZone INDO, kami menyediakan peta interaktif dan informasi bencana yang membantu Anda tetap aman. Masuk atau daftar untuk memulai dan menjelajahi fitur-fitur kami.",
                 style: TextStyle(
                   fontSize: screenWidth * 0.035,  // Ukuran font 3.5% dari lebar layar
                   color: Color(0xFF5D5D5D),
